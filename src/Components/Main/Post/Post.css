@@ -1,0 +1,49 @@
+.posts {
+	margin: 0;
+	padding: 20px 0 0 0;
+	height: 100%;
+}
+
+.post-item {
+	background: radial-gradient(
+		ellipse at left bottom,
+		rgb(186, 192, 255) 0%,
+		rgba(145, 175, 233, 0.9) 59%,
+		rgba(165, 203, 235, 0.9) 100%
+	);
+	width: 850px;
+
+	margin: 20px auto;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 8fr 5fr;
+	cursor: pointer;
+	height: 500px;
+	border: 1px solid rgb(231, 224, 224);
+	border-radius: 12px;
+	transition: 0.3s;
+}
+.post-item:hover {
+	box-shadow: 0px 0px 20px 0px rgba(34, 60, 80, 0.2);
+}
+.post-info {
+	padding: 20px;
+}
+.posts h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.post-title {
+	text-align: center;
+}
+
+.post-img img {
+	border-radius: 0 12px 12px 0;
+	float: right;
+	height: 500px;
+	width: 333px;
+}
+.post-text {
+	padding: 20px;
+}

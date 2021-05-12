@@ -1,0 +1,33 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(59, 57, 57);
+	height: 50px;
+}
+header ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+header ul li {
+	margin-left: 20px;
+}
+header a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s;
+	margin-left: 20px;
+}
+header a:hover {
+	color: rgb(255, 225, 94);
+}
+.auth a {
+	margin-right: 20px;
+}
+.link {
+	color: #fff;
+}
